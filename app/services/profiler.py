@@ -48,7 +48,7 @@ def build_profile(learner_id: str, raw: LearnerProfileInput, graph: SkillGraph) 
                     {"role": "system", "content": sys_prompt},
                     {"role": "user", "content": user_prompt}
                 ],
-                model="llama3-8b-8192",
+                model="openai/gpt-oss-20b",
                 response_format={"type": "json_object"},
                 temperature=0.0
             )
