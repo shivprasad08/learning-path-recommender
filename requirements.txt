@@ -5,3 +5,5 @@ networkx==3.3
 scikit-learn==1.5.2
 numpy==1.26.4
 python-multipart==0.0.9
+sqlalchemy==2.0.35
+psycopg2-binary==2.9.9
